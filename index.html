@@ -16,8 +16,8 @@
 
 <!-- vị trí kế đầu -->
     <!-- thanh nav -->
- 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+ <div  class="nav">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" id="nav1">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">VQB20/8</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,7 +26,7 @@
           <div class="collapse navbar-collapse" id="navbarScroll">
             <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Trang chủ</a>
+                <a class="nav-link active" aria-current="page" href="http://127.0.0.1:5500/index.html">Trang chủ</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">khuyến mãi</a>
@@ -37,26 +37,25 @@
                 </a>
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="#">Bao lì xì</a></li>
-                  <li><a class="dropdown-item" href="#">Bánh</a></li>
+                  <li><a class="dropdown-item" href="http://127.0.0.1:5500/Banh.html">Bánh</a></li>
                   <li><hr class="dropdown-divider"></li>
                   <li><a class="dropdown-item" href="#">Mứt</a></li>
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="http://127.0.0.1:5500/index1.html">Liên hệ</a>
+                <a class="nav-link" href="http://127.0.0.1:5500/Login.html">Liên hệ</a>
               </li>
             
-
-
             </ul>
+            <div class="SL">
+              <span class="badge text-bg-warning">7</span>
+              <h4>Giỏ Hàng</h4>
+            </div>
             
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Sản phẩm" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Tìm</button>
-            </form>
           </div>
         </div>
      </nav>
+    </div>
   
   
 
@@ -113,100 +112,28 @@
     <!-- card -->
 
   
-    <div class="row row-cols-1 row-cols-md-3 g-4">
-      
-        <div class="col">
-          <div class="card">
-            <img src="https://storage.googleapis.com/ops-shopee-files-live/live/shopee-blog/2022/01/01d88af2-cac-loai-banh-keo-ngay-tet-2.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Bánh Danisa</h5>
-            </div>
-
-            <button type="button" class="btn btn-primary"
-            style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">Mua</button>
-          </div>
-        </div>
-      
-
-      
-        <div class="col">
-          <div class="card">
-            <img src="https://vnn-imgs-f.vgcloud.vn/2022/01/24/11/chuyen-gia-chi-bi-quyet-an-banh-chung-khong-gay-tang-can-ngay-tet.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Bánh chưng</h5>
-            </div>
-            
-            <button type="button" class="btn btn-primary"
-            style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">Mua</button>
-          </div>
-        </div>
-      <
-
-      
-        <div class="col">
-          <div class="card">
-            <img src="https://vcdn-dulich.vnecdn.net/2022/01/26/banh-tet-tra-cuon-1953-1643169067.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Bánh tét</h5>
-            </div>
-            
-            <button type="button" class="btn btn-primary"
-            style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">Mua</button>
-          </div>
-        </div>
-      
-
-
-      
-        <div class="col">
-          <div class="card">
-            <img src="https://invietdung.com/upload/li-xi.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Bao lì xì</h5>
-            </div>
-
-            <button type="button" class="btn btn-primary"
-            style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">Mua</button>
-          </div>
-        </div>
-      
-
-        
-      
-        <div class="col">
-          <div class="card">
-            <img src="https://honglam.vn/pic/general/images/nhung-thuc-qua-lam-nen-mam-co-tet-cua-nguoi-viet.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Mứt</h5>
-            </div>
-            
-              <button type="button" class="btn btn-primary"
-              style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">Mua</button>
-          </div>
-        </div>
-      
-
-      
-        <div class="col">
-          <div class="card">
-            <img src="https://cdn.tgdd.vn/Files/2017/01/13/937207/cach-chon-mua-hat-dua-ngon-an-toan-ngay-tet-202001201424270582.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">hạt dưa</h5>
-            </div>
-            
-                 <button type="button" class="btn btn-primary"
-              style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">Mua</button>
-          </div>
-        </div>
-      
-
-    </div>
+    <div id="listSP" class="row row-cols-1 row-cols-md-3 g-4"></div>
   
     <br>
 
 
 
+<div class="footer">
+    <div >Quà tết</div>
+    <div>
+      Danh mục
+      <div>
+          <a herf="http://127.0.0.1:5500/Banh.html">Bánh</a>
+          <a herf="">Mứt</a>
+          <a herf="">Hạt dưa</a>
+      </div>
 
+    </div>
+    <div></div>
+</div>
+<br>
+<br>
+<br>
 
 
 

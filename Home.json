@@ -1,4 +1,4 @@
-[
+ [
     {
         "img": "https://vnn-imgs-f.vgcloud.vn/2022/01/24/11/chuyen-gia-chi-bi-quyet-an-banh-chung-khong-gay-tang-can-ngay-tet.jpg",
         "name": "Bánh chưng",
@@ -20,7 +20,7 @@
         "price": 50000
     },
     {
-        "img": "https://invietdung.com/upload/li-xi.png",
+        "img": "https://honglam.vn/pic/general/images/nhung-thuc-qua-lam-nen-mam-co-tet-cua-nguoi-viet.jpg",
         "name": "Mứt",
         "price": 50000
     },
@@ -30,3 +30,6 @@
         "price": 50000
     }
 ]
+
+
+

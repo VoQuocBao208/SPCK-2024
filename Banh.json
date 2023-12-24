@@ -1,0 +1,17 @@
+[
+    {
+        "image": "https://vnn-imgs-f.vgcloud.vn/2022/01/24/11/chuyen-gia-chi-bi-quyet-an-banh-chung-khong-gay-tang-can-ngay-tet.jpg",
+        "name": "Bánh chưng",
+        "price": 50000
+    },
+    {
+        "image": "https://storage.googleapis.com/ops-shopee-files-live/live/shopee-blog/2022/01/01d88af2-cac-loai-banh-keo-ngay-tet-2.jpg",
+        "name": "Bánh Danisa",
+        "price": 50000
+    },
+    {
+        "image": "https://vcdn-dulich.vnecdn.net/2022/01/26/banh-tet-tra-cuon-1953-1643169067.png",
+        "name": "Bánh tét",
+        "price": 50000
+    }
+]

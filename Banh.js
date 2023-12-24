@@ -1,24 +1,23 @@
-async function VQB() {
+async function Banh() {
     try {
-      const responseVQB = await fetch("Home.json");
-      const resultVQB = await responseVQB.json();
-      console.log(resultVQB);
-      const name = resultVQB;
+      const responseBanh = await fetch("Banh.json");
+      const resultBanh = await responseBanh.json();
+      console.log(resultBanh);
+      const nameBanh = resultBanh;
       
   
-      const list = document.getElementById("listSP");
+      const listBanh = document.getElementById("listSPB");
   
-      name.forEach((item) => {
-      const sanpham = document.createElement("div")
-      sanpham.classList.add("col")
+      nameBanh.forEach((item) => {
+      const sanphamBanh = document.createElement("div")
+      sanphamBanh.classList.add("col")
 
         const img=document.createElement("img")
         const card = document.createElement("div");
         card.classList.add("card")
-
         
   
-        const nameSP = document.createElement("h5");
+        const nameSPBanh = document.createElement("h5");
         const price = document.createElement("h3");
         const nut = document.createElement("button");
         nut.classList.add("btn")
@@ -27,9 +26,8 @@ async function VQB() {
         body.classList.add("card-body")
 
 
-
-        img.src = item.img;
-        nameSP.innerText =  item.name;
+        img.src = item.image;
+        nameSPBanh.innerText =  item.name;
         price.innerText=item.price
         nut.innerText="Mua"
   
@@ -37,29 +35,14 @@ async function VQB() {
         card.appendChild(body);
         card.appendChild(price);
         card.appendChild(nut);
-        body.appendChild(nameSP);
-
-        
-
+        body.appendChild(nameSPBanh);
   
         
-        
-
-  
-        
-        sanpham.appendChild(card);
-        list.appendChild(sanpham);
+        sanphamBanh.appendChild(card);
+        listBanh.appendChild(sanphamBanh);
       });
     } catch (error) {
       console.log(error);
     }
   }
-  VQB();
-
-
-
-
-  
-
-
-
+  Banh();

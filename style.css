@@ -1,5 +1,6 @@
 img{
     width: 100%;
+    height: 60%;
 }
 .card{
     height: 500px;
@@ -13,4 +14,22 @@ img{
 }
 .card-img-top{
     height: 300px;
+}
+
+
+.nav{
+    position: -webkit-sticky; /*safari*/
+    position: sticky;
+    top: 0;
+    z-index: 99999;
+    width: 100%;
+}
+#nav1{
+    width: 100%;
+}
+
+
+.Sl{
+    display: flex;
+    flex-wrap:wrap;
 }
