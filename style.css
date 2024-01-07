@@ -29,7 +29,26 @@ img{
 }
 
 
-.Sl{
-    display: flex;
-    flex-wrap:wrap;
+
+#listSP{
+    margin-top: 20px;
 }
+.scroll{
+    height: 50px;
+    width: 50px;
+    background-color: aqua;
+}
+
+
+.den{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+
