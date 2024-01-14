@@ -2,16 +2,19 @@
     {
         "image": "https://vnn-imgs-f.vgcloud.vn/2022/01/24/11/chuyen-gia-chi-bi-quyet-an-banh-chung-khong-gay-tang-can-ngay-tet.jpg",
         "name": "Bánh chưng",
+        "description":"Bánh chưng được làm từ gạo nếp trắng ngần với phần nhân có đậu xanh, thịt mỡ, hành, tiêu… Tất cả được bọc trong lớp lá dong xanh mướt và được buộc chặt bằng những sợi lạt mềm dẻo với tạo hình vuông vức, đẹp mắt. Người Việt Nam từ xa xưa đã sống trong nền văn hóa lúa nước, phải phụ thuộc thiên nhiên rất nhiều.",
         "price": 50000
     },
     {
         "image": "https://storage.googleapis.com/ops-shopee-files-live/live/shopee-blog/2022/01/01d88af2-cac-loai-banh-keo-ngay-tet-2.jpg",
         "name": "Bánh Danisa",
+        "description":"Bánh Danisa Cookies là loại bánh quy bơ được sản xuất tại đất nước Đông Nam Á là Indonesia, rất gần Việt Nam của chúng ta, bởi nhà máy tập đoàn hàng đầu Indonesia Mayora với công nghệ châu Âu của Đan Mạch.",
         "price": 50000
     },
     {
         "image": "https://vcdn-dulich.vnecdn.net/2022/01/26/banh-tet-tra-cuon-1953-1643169067.png",
         "name": "Bánh tét",
+        "description":"Bánh tét, có nơi gọi là bánh đòn,[1] là một loại bánh trong ẩm thực của cả người Việt và một số dân tộc ít người[2] ở miền Nam và miền Trung Việt Nam, là nét tương đồng của bánh chưng ở miền Bắc về nguyên liệu, cách nấu, chỉ khác về hình dáng và sử dụng lá chuối để gói thay vì lá dong, vì vậy nó cũng được sử dụng nhiều nhất trong dịp Tết Nguyên đán cổ truyền của dân tộc Việt Nam ",
         "price": 50000
     }
 ]

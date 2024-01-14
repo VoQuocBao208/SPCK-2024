@@ -35,6 +35,7 @@ async function Banh() {
       card.classList.add("card");
 
       const nameSPBanh = document.createElement("h5");
+      const description=document.createElement("p")
       const price = document.createElement("h3");
       const nut = document.createElement("button");
       nut.classList.add("btn");
@@ -44,6 +45,7 @@ async function Banh() {
 
       img.src = item.image;
       nameSPBanh.innerText = item.name;
+      description.innerText=item.description;
       price.innerText = item.price;
       nut.innerText = "Mua";
 
