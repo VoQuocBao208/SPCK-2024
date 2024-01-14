@@ -7,7 +7,6 @@ const password = document.getElementById("floatingPassword");
 const mess = document.getElementById("floatingTextarea2");
 
 function form(e) {
-  console.log('hello')
   e.preventDefault();
   if (
     email.value === "" ||

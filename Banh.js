@@ -31,6 +31,7 @@ async function Banh() {
       sanphamBanh.classList.add("col");
 
       const img = document.createElement("img");
+      img.classList.add("img")
       const card = document.createElement("div");
       card.classList.add("card");
 
