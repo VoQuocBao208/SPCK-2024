@@ -46,7 +46,7 @@ async function Banh() {
       img.src = item.image;
       nameSPBanh.innerText = item.name;
       description.innerText=item.description;
-      price.innerText = item.price;
+      price.innerText = item.price + " VNĐ";
       nut.innerText = "Mua";
 
 
@@ -58,6 +58,7 @@ async function Banh() {
 
       card.appendChild(img);
       card.appendChild(body);
+      card.appendChild(description)
       card.appendChild(price);
       card.appendChild(nut);
       body.appendChild(nameSPBanh);
