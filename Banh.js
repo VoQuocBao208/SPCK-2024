@@ -31,12 +31,12 @@ async function Banh() {
       sanphamBanh.classList.add("col");
 
       const img = document.createElement("img");
-      img.classList.add("img")
+      img.classList.add("img");
       const card = document.createElement("div");
       card.classList.add("card");
 
       const nameSPBanh = document.createElement("h5");
-      const description=document.createElement("p")
+      const description = document.createElement("p");
       const price = document.createElement("h3");
       const nut = document.createElement("button");
       nut.classList.add("btn");
@@ -46,20 +46,19 @@ async function Banh() {
 
       img.src = item.image;
       nameSPBanh.innerText = item.name;
-      description.innerText=item.description;
+      description.innerText = item.description;
       price.innerText = item.price + " VNĐ";
       nut.innerText = "Mua";
-
 
       nut.addEventListener("click", () => {
         cart.push(item);
         localStorage.setItem("carts", JSON.stringify(cart));
-        cartNumber.innerText = cart.length
+        cartNumber.innerText = cart.length;
       });
 
       card.appendChild(img);
       card.appendChild(body);
-      card.appendChild(description)
+      card.appendChild(description);
       card.appendChild(price);
       card.appendChild(nut);
       body.appendChild(nameSPBanh);
