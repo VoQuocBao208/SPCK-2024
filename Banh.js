@@ -38,6 +38,7 @@ async function Banh() {
       const nameSPBanh = document.createElement("h5");
       const description = document.createElement("p");
       const price = document.createElement("h3");
+      price.classList.add("price")
       const nut = document.createElement("button");
       nut.classList.add("btn");
       nut.classList.add("btn-primary");
@@ -47,7 +48,7 @@ async function Banh() {
       img.src = item.image;
       nameSPBanh.innerText = item.name;
       description.innerText = item.description;
-      price.innerText = item.price + " VNĐ";
+      price.innerText = item.price + ".000 VNĐ";
       nut.innerText = "Mua";
 
       nut.addEventListener("click", () => {

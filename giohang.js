@@ -1,6 +1,6 @@
 let gh = JSON.parse(localStorage.getItem("carts"));
 
-  gh.forEach(function (item, index) {
+  gh?.forEach(function (item, index) {
     
     const card = document.getElementById("card1");
     const ig = document.createElement("img");

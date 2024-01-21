@@ -99,3 +99,10 @@ font-family: 'Pacifico', cursive;
 .cursor-pointer{
     cursor: pointer;
 }
+
+
+.price{
+    color: red;
+}
+
+

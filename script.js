@@ -38,6 +38,7 @@ async function VQB() {
       const nameSP = document.createElement("h4");
       const description = document.createElement("p");
       const price = document.createElement("h3");
+      price.classList.add("price")
       const nut = document.createElement("button");
       nut.classList.add("btn");
       nut.classList.add("btn-primary");
@@ -48,7 +49,7 @@ async function VQB() {
 
       nameSP.innerText = item.name;
       description.innerText = item.description;
-      price.innerText = item.price + " VNĐ";
+      price.innerText = item.price + ".000 VNĐ";
       nut.innerText = "Mua";
 
       nut.addEventListener("click", () => {
